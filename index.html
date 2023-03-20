@@ -11,62 +11,83 @@
                 
             </div>
             <div class="menu">
-                <p class="menu-item">HOME</p>
-                <p class="menu-item">EXPERIENCE</p>
-                <P class="menu-item">EDUCATION</p>
-                <p class="menu-item">CONTACT</p>
+                <a href="#home" class="menu-item">HOME</a>
+                <a href="#experience" class="menu-item">EXPERIENCE</a>
+                <a href="#education" class="menu-item">EDUCATION</a>
+                <a href="#contact" class="menu-item">CONTACT</a>
             </div>
         </header>
         <main class="main-container">
-            <div class="home">
-                <h3>Hello Everybody, I am</h3> 
-                <h1>MOHAMMAD RAZA</h1>
-                <h2>Web Developer</h2> 
-                <h3>Delhi,INDIA</h3>
+            <div class="section-1" id="home">
+                <section   class="home">
+                    <h3>Hello Everybody, I am</h3> 
+                    <h1>MOHAMMAD RAZA</h1>
+                    <h2>Web Developer</h2> 
+                    <h3>Delhi,INDIA</h3>
+                </section>
             </div>
 
-            <div class="experience">
+            <div class="section-2" id="experience">
+                <section  class="experience">
                 <h1>Resume</h1>
                 <h3>Hardworking and passionate job seeker with strong organization skills and eager to secure the entry level position as web developer.</h3>
                 <h3>A developer with a passion for web accessibilty, responsive web design, problem solving and creating effective solution for online businesses.</h3>
                 <h3>Proficient in HTML5, CSS3 and JavaScript.Ready to help team and achieve company goals want to maintain full-time position that offers professinals challenges utilizing interpersonal skills, excellent time management.</h3>
                 <h2>EXPERIENCE: AMAZON Development Center, Noida-62</h2>
                 <h3>Amazon Business Enterprises Associate | OCT 2018 to MAR 2022</h3>
+            </section>
+        </div>
+
+
+            <div class="section-3" id="education">
+                <section  class="education">
+                    <h1>Education</h1>
+                    <h2>BBA (Bachelor of Business & Administration)</h2><h3>Jamia Hamdard University | 2015-2018</h3>
+                    <h2>12th (Senior Secondary) </h2><h3>GBSS School Devli | 2013-2015 </h3>
+                    <h2>10th (High School) </h2><h3>Tinu Public School | 2012-2013</h3>
+    
+                </section>
             </div>
 
-            <div class="education">
-                <h1>Education</h1>
-                <h2>BBA (Bachelor of Business & Administration)</h2><h3>Jamia Hamdard University | 2015-2018</h3>
-                <h2>12th (Senior Secondary) </h2><h3>GBSS School Devli | 2013-2015 </h3>
-                <h2>10th (High School) </h2><h3>Tinu Public School | 2012-2013</h3>
-            </div>
+    
 
-            <div class="contact">
-                <h1>Contact</h1>
-                <form name="contact-form" onsubmit="return submitForm()">
-                    <label for="first-name">
-                        <h2 class="form-item">First Name</h2>
-                    </label>
-                    <input name="fname" class="box1" id="first-name" type="text">
-
-                    <label for="last-name">
-                        <h2 class="form-item">Last Name</h2>
-                    </label>
-                    <input name="lname" class="box1" id="last-name" type="text">
-
-                    <h2 class="form-item">Email*</h2>
-                    <input name="email" class="box1" type="text">
-                    <h2 class="form-item">Leave me a message...</h2>
-                    <input name="message" class="box1" type="text"><br>
-
-                    <input class="button" type="submit" value="Submit"/>
-                </form>
+            <div class="section-4"  id="contact">
+                <section class="contact">
+                    <h1>Contact</h1>
+                    <form name="contact-form" onsubmit="return submitForm()">
+                        <label for="first-name">
+                            <h2 class="form-item">First Name</h2>
+                        </label>
+                        <input name="fname" class="box1" id="first-name" type="text">
+    
+                        <label for="last-name">
+                            <h2 class="form-item">Last Name</h2>
+                        </label>
+                        <input name="lname" class="box1" id="last-name" type="text">
+    
+                        <label for="email-name">
+                            <h2 class="form-item">Email*</h2>
+                        </label>
+                        <input name="ename" class="box1" id="email-name" type="text">
+    
+                        <label for="m-name">
+                            <h2 class="form-item">Message for me...</h2>
+                        </label>
+                        <input name="mname" class="box1" id="m-name" type="text">
+    
+                        <br>
+                        <input class="button" type="submit" value="Submit"/>
+                    </form>
+                </section>
             </div>
         </main>
 
         <footer class="footer">
             <div>
-                Mohd raza
+                <a href="https://www.linkedin.com/in/mohd-raza-294938169/"   target="_blank"class="footer-item">LinkedIn</a>
+
+                <a href="https://github.com/Razamohd9123"   target="_blank"class="footer-item">GitHub</a>
+                
             </div>
             
         </footer>
